@@ -16,4 +16,11 @@ class Game {
 
         return [player1, player2];
     }
+
+/**
+ * gets game ready for play
+ */
+    startGame() {
+        
+    }
 }
