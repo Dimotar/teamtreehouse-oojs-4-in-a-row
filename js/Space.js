@@ -16,6 +16,7 @@ class Space {
         svgSpace.setAttributeNS(null, "r", this.radius - 8);
         svgSpace.setAttributeNS(null, "fill", "black");
         svgSpace.setAttributeNS(null, "stroke", "none");
+        
         document.getElementById("mask").appendChild(svgSpace);  
     }
 }
