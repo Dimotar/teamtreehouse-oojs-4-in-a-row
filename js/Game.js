@@ -38,11 +38,11 @@ class Game {
     handleKeydown(e) {
         if(this.ready) {
             if ( e.key === "ArrowLeft") {
-                console.log(e.key)
+                this.activePlayer.activeToken.moveLeft();
             } else if ( e.key === "ArrowRight") {
-                console.log(e.key)
+                this.activePlayer.activeToken.moveRight(this.board.columns);
             } else if ( e.key === "ArrowDown") {
-                console.log(e.key)
+                this.activePlayer.activeToken.drop();
             }
         }
     }
